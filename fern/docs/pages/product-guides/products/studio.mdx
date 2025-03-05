@@ -11,7 +11,7 @@ headline: Studio overview
 
 ## Overview
 
-Studio is an end-to-end workflow for creating long-form content. With this tool you can upload an entire book, document or webpage and generate a voiceover narration for it. The result can then be downloaded as a single MP3 file or as individual MP3 files for each chapter.
+Studio is an end-to-end workflow for creating long-form content. With this tool you can upload an entire book, document or webpage and generate a voiceover narration for it. The result can then be downloaded as a single audio file or as individual audio files for each chapter.
 
 ## Guide
 
@@ -21,16 +21,15 @@ Studio is an end-to-end workflow for creating long-form content. With this tool 
 
 <Steps>
   <Step title="Create a new project">
-    Select one of the start options at the top of the studio page.
+    Select one of the starting options at the top of the Studio page.
   </Step>
   <Step title="Select settings">Follow the instructions in the popup and click "Create".</Step>
   <Step title="Edit text">
     Make changes in the text editor and adjust voice settings as needed.
   </Step>
   <Step title="Download audio files">
-    Click the "Convert" button to compile and download the entire project or specific chapters as a
-    single audio file. Use the "Download" button for various download options, including
-    project-wide or chapter-specific files.
+    Click the "Export" button to compile and download the entire project or specific chapters as a
+    single audio file.
   </Step>
 </Steps>
 
@@ -38,6 +37,75 @@ Studio is an end-to-end workflow for creating long-form content. With this tool 
   You can use our [Audio Native](/docs/product/audio-native/overview) feature to easily and
   effortlessly embed any narration project onto your website.
 </Note>
+
+## Starting options
+Some settings are automatically selected by default when you create a new project. 
+
+The default model is Multilingual v2, our highest quality model and the model we recommend for content creation. You can change this setting after you've created your project in Project Settings.
+
+The quality setting is automatically selected depending on your subscription plan. For free, Starter and Creator subscriptions the quality will be High. For Pro, Scale, Business and Enterprise plans, the quality will be Ultra Lossless. The quality setting will not increase your credit usage.
+
+<AccordionGroup>
+  <Accordion title="Start from scratch">
+  This option will automatically create a new blank project, ready for you to enter your own text. 
+  </Accordion>
+  <Accordion title="Create an audiobook">
+  When you select this option, you will see a popup which will allow you to upload a file which will be imported into your new project. 
+  
+  You can upload EPUB, PDF, TXT, HTML and DOCX files. 
+  
+  You can also select a default voice for your project, and have the option to enable "Auto-assign voices". This will detect characters in your text and assign matching voices to them. This feature will add additional processing time.
+  </Accordion>
+  <Accordion title="Create an article">
+  When you select this option, you will see a popup which will allow you to enter a URL to import the text from the page into your project. 
+  
+  You can also select a default voice for your project, and have the option to enable "Auto-assign voices". This will detect characters in your text and assign matching voices to them. This feature will add additional processing time.
+  </Accordion>
+  <Accordion title="Create a podcast">
+  This option will use GenFM to automatically create a podcast based on an uploaded document, a webpage via URL, or an existing project. 
+  
+  In the format settings, you can choose whether to create a conversation between a host and guest, or a more focussed bulletin style podcast with a single host. You can also set the duration to short, default or long. 
+
+  You can choose your own preferred voices for the podcast host and guest, or go with our suggested voices. 
+
+  You have the option to set the podcast language. If you don't set this option, the podcast will be generated in the language of the source material. 
+  
+  Finally, if you click the cog icon, you can access the advanced configuration options. This allows you to specify up to three areas you would like the podcast to focus on.
+  </Accordion>
+</AccordionGroup>
+
+## Generating Audio
+<AccordionGroup>
+  <Accordion title="Export">
+  Once you've added text, either by importing it or adding it yourself, you can use the Export button to generate audio for the entire chapter or project in one step. It will automatically generate and download an audio file, but you still have the option to edit your project. Once you're done editing, you will need to use the Export button again to generate and download a new version of your project that includes the updated audio.
+  </Accordion>
+
+  <Accordion title="Play">
+  If you have not yet generated audio for a paragraph, you can use the Play button to generate audio and play it. Generating audio will cost credits. If you have already geneated audio, then the Play button will play the already generated audio and you won't be charged any credits.
+  </Accordion>
+
+  <Accordion title="Generate/Regenerate">
+  The generate button will generate audio if you have not yet generated audio for the selected text, or will generate new audio if you have already generated audio. This will cost credits. 
+  
+  If you have made changes to the paragraph such as changing the text or the voice, then the paragraph will lose its converted status, and will need to be generated again.
+  
+  If the button says "Regenerate", then this means that you're eligible for a free regeneration. You're eligible for two free regenerations provided you don't change the voice or the text. 
+  </Accordion>
+
+  <Accordion title="Generation History">
+  </Accordion>
+  
+  <Accordion title="Undo and Redo">
+  If you accidentally make a change, you can use the Undo button to restore the previous version, and the Redo button to restore the change. 
+  </Accordion>
+  
+  <Accordion title="Volume Slider">
+
+  </Accordion>
+  
+  <Accordion title="Multiselect paragraphs">
+  </Accordion>
+</AccordionGroup>
 
 ## Settings
 
@@ -105,6 +173,8 @@ Studio is an end-to-end workflow for creating long-form content. With this tool 
 
   </Accordion>
 </AccordionGroup>
+
+## Exporting 
 
 ## FAQ
 
